@@ -25,7 +25,7 @@ SECRET_KEY = ')yacma_1s)__l-$ea2el$ig(373)no&-b&xgy)all$*=n$3!aj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['139.59.13.34']
+ALLOWED_HOSTS = ['139.59.13.34', '127.0.0.1']
 
 
 # Application definition

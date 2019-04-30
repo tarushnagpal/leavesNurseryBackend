@@ -20,5 +20,6 @@ from Plants import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^getPlants/', views.GetPlants.as_view()),
-    url(r'^getFeaturedPlants/', views.GetFeaturedPlants)
+    url(r'^getFeaturedPlants/', views.GetFeaturedPlants),
+    url(r'^getCategories/', views.getCategories )
 ]

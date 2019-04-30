@@ -5,4 +5,4 @@ class PlantSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Plant
-        fields = ('binomial_name', 'indian_name', 'is_featured', 'image_url')
+        fields = ('binomial_name', 'indian_name', 'is_featured', 'image_url', 'category')
